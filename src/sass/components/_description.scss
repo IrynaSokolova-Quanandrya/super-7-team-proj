@@ -1,9 +1,15 @@
+.text{
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+
 
 .svg-description {
-align-items: center;
-justify-content: center;
-margin-left: 0;
-margin-right: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
 }
 
 
@@ -37,6 +43,12 @@ img {
     display: block;
     height: auto;
     width: 100%;
+}
+
+div{
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
 }
 
 
