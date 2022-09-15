@@ -2,7 +2,6 @@
 @media (max-width:767px) {
     width: 166px;
     height: 166px;
-
 }
 @media(min-width:$tablet){
     width: 182px;
@@ -30,8 +29,8 @@
     color: black;        
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;    
-    @media (max-width:767px) {
+    font-weight: 400;
+        @media (max-width:767px) {
         font-size: 12px;
         line-height: 18px;
      }
@@ -39,16 +38,18 @@
         font-size: 20px;
         line-height: 30px;
      }
-     @media (min-width:$desktop) {
+
+    @media (min-width:$desktop) {
         font-size: 26px;
         line-height: 35px;
      }
-
 }
 .li-about:not(:first-child){    
     @media (max-width:767px) {
         margin-top: 3px;
+
     }
+
     @media (min-width:$tablet) {
         margin-top: 10px;
     }
@@ -57,11 +58,11 @@
     }
     
 }
-.about{
-    @media (min-width:$desktop) {
+.about{    
+    @media (min-width:$tablet) {
         display: flex;
     }
-    @media (min-width:$tablet) {
+    @media (min-width:$desktop) {
         display: flex;
     }
 }
